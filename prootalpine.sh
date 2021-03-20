@@ -61,7 +61,7 @@ else
 	*)
 		echo "unknown architecture"; exit 1 ;;
 	esac
-	url=https://github.com/AndronixApp/AndronixOrigin/blob/master/Rootfs/Alpine/${archurl}/alpine-minirootfs-3.10.3-${archurl}.tar.gz?raw=true
+	url=https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86_64/alpine-minirootfs-3.13.2-x86_64.tar.gz
 	echo "Downloading and extracting $name"
 	echo "Extraction happens in parallel"
 	echo ""
