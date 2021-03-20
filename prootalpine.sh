@@ -29,7 +29,6 @@ echo " "
 echo  "Allow the Storage permission to termux"
 echo " "
 sleep 2
-termux-setup-storage
 clear
 
 #Creating folders we need
