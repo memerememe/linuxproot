@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 #Variables we need. Script is modular, change below variables to install different distro's
 name="Alpine"
 distro=alpine
@@ -80,7 +80,7 @@ if [ -d $folder/var ];then
 	echo "---------------------------"
 
 	cat > $bin <<- EOM
-	#!/usr/bin/bash
+	#!/bin/bash
 	cd \$(dirname \$0)
 	## unset LD_PRELOAD in case termux-exec is installed
 	unset LD_PRELOAD
